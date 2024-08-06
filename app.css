@@ -1,0 +1,144 @@
+body {
+    background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;
+
+    width: 100dvw;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgba(191, 155, 208, 0.6);
+
+}
+
+.navbar-nav {}
+
+.navbar-nav a {
+    /*     background-color: rgba(191, 155, 208, 0.6); */
+
+    transition: transform 0.5s;
+}
+
+.navbar-nav a:hover {
+    transform: scale(0.90);
+
+}
+
+.navbar-brand,
+.navlink {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+
+.navbar-brand {
+    color: rgb(195, 48, 48);
+
+}
+
+.navlink {
+    color: white;
+
+}
+
+.navlink:hover,
+.navbar-brand:hover {
+    text-decoration: none;
+    color: rgb(195, 48, 48);
+
+}
+
+.navbar-toggler {
+    /* 
+    border: 1px solid red; */
+    transition: all 0.5s;
+}
+
+.navbar-toggler:active {
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.navbar-toggler:focus {
+    outline: none;
+
+}
+
+#i1 {
+    padding: 0;
+
+}
+
+.headercon {
+    font-size: 4rem;
+
+}
+
+.headercon h2 {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.headercon h2 p {
+    display: inline;
+    color: rgb(195, 48, 48);
+
+}
+
+#i2 {}
+
+#pt2 h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.3em;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: rgb(255, 55, 55);
+
+
+}
+
+#pt2 p {
+    font-size: 1.1rem;
+    font-weight: 400;
+
+    line-height: 2em;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+
+    color: rgb(225, 130, 130);
+
+}
+
+#pt2 img {
+    width: 10em;
+
+}
+
+@media (min-width:992px) {
+
+
+    .navbar {
+        background-color: rgb(191, 155, 208);
+
+    }
+
+    .navbar-nav {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    /*     #i1 {
+        width: 9vh;
+
+    } */
+
+    .headercon {}
+}
